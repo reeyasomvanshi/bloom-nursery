@@ -1,0 +1,75 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Source Serif 4', sans-serif;
+    background : url("images/landing_page.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content: center;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+.main,.login{
+
+	margin-bottom: 4px;
+	color: black;
+	text-decoration-line: none;
+}
+
+.login{
+	margin-left: 10px;
+}
+
+.login:hover{
+	color: black;
+	text-decoration-line: none;	
+	text-shadow: 2px 2px 7px greenyellow;
+}
+
+h1{
+	font-size: 3em;
+}
+.text_sec{
+	padding-bottom: 10px;
+}
+
+.logo{
+	width: 60px;
+	height: 55px;
+}
+
+.text_info{
+	padding-bottom: 10px;
+	width: 500px;
+}
+
+p{
+	text-align: justify;
+	color: white;
+	font-style: italic;
+	text-shadow: 2px 2px 5px black;
+	font-size: 16px;
+}
+
+.s3{
+	padding-bottom: 5px;
+}
+
+.btn-shop{
+	color: black;
+	border-color: black;
+	border-width: 2px;
+	font-weight: bold;
+}
+
+hr {
+    margin: 20px auto;
+    color: lightgreen;
+    border: 2px solid darkgrey; /*#d59a7f;*/
+    max-width: 140px;
+    opacity: 80%;  
+}
+
